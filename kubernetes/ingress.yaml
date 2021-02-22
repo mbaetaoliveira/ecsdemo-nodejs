@@ -20,7 +20,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /health
+          - path: /*
             pathType: ImplementationSpecific         
             backend:
               service:
